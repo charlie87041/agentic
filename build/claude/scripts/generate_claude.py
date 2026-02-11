@@ -59,11 +59,12 @@ class ClaudeConfigGenerator:
             'agents',
             'commands',
             'skills',
+            'artifacts',
             'rules',
             'hooks',
             'schemas',
-            'scripts/ci',
-            'scripts/hooks'
+            'scripts',
+            'plugins'
         ]
         
         for dir_name in dirs:
