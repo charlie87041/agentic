@@ -26,6 +26,8 @@ node_modules/
 personal/
 private/
 docker/
+.codex/*
+
 
 # Session templates (not committed)
 examples/sessions/*.tmp

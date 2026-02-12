@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "generatedAt": null,
+  "project": {
+    "name": "my-project",
+    "language": "java",
+    "framework": "spring-boot",
+    "buildTool": "gradle"
+  },
+  "agents": {
+    "default": "planner",
+    "recommended": []
+  },
+  "skills": {
+    "recommended": []
+  },
+  "rules": {
+    "paths": [
+      "rules/common/agents.md",
+      "rules/common/coding-style.md",
+      "rules/common/git-workflow.md",
+      "rules/common/security.md",
+      "rules/common/testing.md"
+    ]
+  },
+  "commands": {
+    "paths": [
+      "commands/plan.md",
+      "commands/tdd.md",
+      "commands/code-review.md",
+      "commands/verify.md"
+    ]
+  },
+  "notes": [
+    "Este archivo es documental para Codex y sirve como índice de configuración del proyecto.",
+    "La ejecución efectiva depende de AGENTS.md/Agent.md y de las instrucciones markdown del repositorio.",
+    "Si generas AGENTS.md en raíz, Codex podrá aplicarlo automáticamente según alcance de carpetas."
+  ]
+}
