@@ -1,0 +1,12 @@
+{
+  "pre-commit": {
+    "enabled": true,
+    "script": "scripts/hooks/pre-commit.sh",
+    "description": "Run linting and tests before commit"
+  },
+  "post-merge": {
+    "enabled": false,
+    "script": "scripts/hooks/post-merge.sh",
+    "description": "Update dependencies after merge"
+  }
+}
